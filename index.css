@@ -1,0 +1,38 @@
+.header {
+  background-color: antiquewhite;
+  height: 80px;
+}
+
+.section {
+  background-color: azure;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .section {
+    flex-direction: row;
+  }
+}
+
+.footer {
+  height: 80px;
+  background-color: aquamarine;
+}
+
+.a {
+  width: 100%;
+  height: 150px;
+  background-color: red;
+  text-align: center;
+}
+
+.b {
+  width: 100%;
+  height: 150px;
+  background-color: blue;
+  text-align: center;
+}
